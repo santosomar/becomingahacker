@@ -1200,10 +1200,6 @@ The Kali MCP Server with Claude Desktop represents a powerful combination of tra
    - Claude Desktop: https://claude.ai/download
    - Documentation: https://docs.anthropic.com
 
-6. **Security Resources**:
-   - OWASP: https://owasp.org
-   - NIST Cybersecurity Framework: https://www.nist.gov/cyberframework
-   - SANS Institute: https://www.sans.org
 
 ---
 
