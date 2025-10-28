@@ -12,102 +12,46 @@ A well-configured offensive security lab is essential for practicing penetration
 - **Tool Familiarity**: Learn to use various security tools effectively
 - **Reproducible Testing**: Test and validate exploits in controlled conditions
 
+### Video Courses
+Enhance your practical skills with these video courses designed to deepen your understanding of cybersecurity:
+
+- Building the Ultimate Cybersecurity Lab and Cyber Range (video) [Available on O'Reilly](https://learning.oreilly.com/course/building-the-ultimate/9780138319090/)
+- Build Your Own AI Lab (video) Hands-on guide to home and cloud-based AI labs. Learn to set up and optimize labs to research and experiment in a secure environment. [Available on O'Reilly](https://learning.oreilly.com/course/build-your-own/9780135439616)
+
+
 ## WebSploit Labs
 
 [WebSploit Labs](https://websploit.org) provides a comprehensive platform for learning offensive security techniques with pre-configured vulnerable environments.
 
+## Kali MCP Server
+
+Integrate AI-powered penetration testing into your workflow with the Kali MCP Server. This setup combines Kali Linux tools with Claude Desktop through the Model Context Protocol (MCP), enabling you to execute security testing commands using natural language.
+
 ### Features
+- **50+ Pre-loaded Tools**: Access to essential Kali Linux tools (nmap, nikto, sqlmap, metasploit, etc.)
+- **Natural Language Interface**: Execute complex commands without memorizing syntax
+- **Docker-based**: Isolated, reproducible environment
+- **AI-Assisted Testing**: Let Claude help plan and execute security assessments
 
-- Pre-built vulnerable web applications
-- Network penetration testing scenarios
-- Realistic attack simulations
-- Guided learning paths
-- Community support
+### Quick Start
+```bash
+# Build the Kali MCP container
+docker build -t kali-mcp:latest .
 
-## Essential Components
-
-### Virtualization Platform
-
-- **VMware Workstation/Fusion**: Professional virtualization solution
-- **VirtualBox**: Free and open-source alternative
-- **Proxmox**: Enterprise-grade virtualization platform
-- **Docker**: Container-based environments for specific scenarios
-
-### Attack Platforms
-
-- **Kali Linux**: Debian-based distribution with 600+ penetration testing tools
-- **Parrot Security OS**: Alternative to Kali with additional privacy features
-- **BlackArch**: Arch Linux-based penetration testing distribution
-
-### Vulnerable Targets
-
-- **Metasploitable 2/3**: Intentionally vulnerable Linux systems
-- **DVWA (Damn Vulnerable Web Application)**: PHP/MySQL web application
-- **WebGoat**: OWASP's deliberately insecure web application
-- **HackTheBox**: Online platform with vulnerable machines
-- **TryHackMe**: Guided penetration testing challenges
-
-## Network Configuration
-
-### Isolated Network Setup
-
-- Create isolated virtual networks to prevent accidental exposure
-- Configure NAT for internet access when needed
-- Set up host-only networks for isolated testing
-- Implement network segmentation for different scenarios
-
-### Recommended Network Architecture
-
-```
-[Attack Machine (Kali)] <---> [Virtual Switch] <---> [Vulnerable Targets]
-                                     |
-                                [NAT Gateway]
-                                     |
-                                [Internet]
+# Configure Claude Desktop
+# Edit: ~/Library/Application Support/Claude/claude_desktop_config.json
 ```
 
-## Hardware Requirements
+📚 **[Complete Kali MCP Lab Guide](./kali-mcp-claude.md)** - Detailed setup instructions, exercises, and best practices
 
-### Minimum Specifications
+### Example Usage
+Once configured, you can interact with Kali tools through Claude:
+- "Scan 192.168.1.1 with nmap to find open ports"
+- "Run nikto against http://testsite.com"
+- "Use gobuster to find hidden directories on http://example.com"
 
-- **CPU**: Quad-core processor with virtualization support (Intel VT-x/AMD-V)
-- **RAM**: 16 GB (8 GB for host, 8 GB for VMs)
-- **Storage**: 250 GB SSD
-- **Network**: Ethernet adapter for stable connections
-
-### Recommended Specifications
-
-- **CPU**: 8-core processor or higher
-- **RAM**: 32 GB or more
-- **Storage**: 500 GB NVMe SSD
-- **Network**: Gigabit Ethernet
-
-## Best Practices
-
-- Keep your attack tools updated regularly
-- Take snapshots before major changes
-- Document your lab configuration
-- Maintain separate networks for different testing scenarios
-- Never use lab techniques on unauthorized systems
-- Regularly backup your lab environment
-
-## Getting Started
-
-1. Install your preferred virtualization platform
-2. Download and install Kali Linux or Parrot Security OS
-3. Set up vulnerable target machines
-4. Configure network isolation
-5. Test connectivity and tool functionality
-6. Create snapshots of clean installations
-
-## Resources
-
-- [WebSploit Labs](https://websploit.org)
-- [Kali Linux Documentation](https://www.kali.org/docs/)
-- [Parrot Security Documentation](https://www.parrotsec.org/docs/)
-- [VulnHub](https://www.vulnhub.com/) - Downloadable vulnerable VMs
-
-## Next Steps
-
-Once your lab is set up, you'll learn how to leverage AI to enhance your penetration testing and bug hunting capabilities.
+### Resources
+- [Original Article by Sasisachins](https://medium.com/@sasisachins2003/penetration-testing-made-simple-kali-mcp-with-docker-and-claude-desktop-6d50a6a60300)
+- [Model Context Protocol Documentation](https://modelcontextprotocol.io)
+- [Kali Linux Official Documentation](https://www.kali.org/docs/)
 
