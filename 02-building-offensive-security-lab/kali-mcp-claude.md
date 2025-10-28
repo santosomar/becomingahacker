@@ -1181,22 +1181,21 @@ The Kali MCP Server with Claude Desktop represents a powerful combination of tra
 
 ## References
 
-1. **Original Article**: [Penetration Testing Made Simple: Kali MCP with Docker and Claude Desktop](https://medium.com/@sasisachins2003/penetration-testing-made-simple-kali-mcp-with-docker-and-claude-desktop-6d50a6a60300)
 
-2. **Model Context Protocol**:
+1. **Model Context Protocol**:
    - Official Site: https://modelcontextprotocol.io
    - GitHub: https://github.com/modelcontextprotocol
 
-3. **Kali Linux**:
+2. **Kali Linux**:
    - Official Site: https://www.kali.org
    - Documentation: https://www.kali.org/docs/
    - Tools List: https://www.kali.org/tools/
 
-4. **Docker**:
+3. **Docker**:
    - Official Site: https://www.docker.com
    - Documentation: https://docs.docker.com
 
-5. **Anthropic Claude**:
+4. **Anthropic Claude**:
    - Claude Desktop: https://claude.ai/download
    - Documentation: https://docs.anthropic.com
 
