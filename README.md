@@ -14,6 +14,9 @@ No prior penetration testing or ethical hacking experience is needed. You will b
 
 This course is also helpful for those seeking certifications such as the Offensive Security Certified Professional (OSCP) Certification, CEH Practical, PenTest+, or the GIAC Penetration Tester (GPEN), this two-day training session is a great place to start. This live training can also help you if you want to start exploring the world of bug hunting and bug bounties.
 
+## Another Great GitHub Repository
+💥 https://hackerrepo.org - This repository is primarily maintained by Omar Santos (@santosomar) and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), artificial intelligence security, vulnerability research, exploit development, reverse engineering, and more.
+
 ### What you’ll learn and how you can apply it
 
 - Learn fundamentals of ethical hacking or security penetration testing
