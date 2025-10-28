@@ -1209,8 +1209,5 @@ The Kali MCP Server with Claude Desktop represents a powerful combination of tra
 
 **Disclaimer**: This lab is for educational purposes only. Always ensure you have proper authorization before conducting any security testing. Unauthorized access to computer systems is illegal and unethical.
 
-**Version**: 1.0  
-**Last Updated**: October 2025  
-**Author**: Based on work by Sasisachins and the MCP community  
-**License**: Educational Use Only
+
 
